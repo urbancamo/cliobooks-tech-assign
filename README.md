@@ -1,6 +1,6 @@
 # cliobooks-tech-assign
 
-Technical Assignment for ClioBooks Software Engineer Candidates
+Technical Assignment for ClioBooks Software Engineer Candidates.
 
 ## Purpose
 
@@ -27,7 +27,8 @@ Fork this repository and clone it to your local machine.
 
 Create a new branch for your work of the form `feature/surname-firstname`.
 
-Complete your work in this branch. Do not create a pull request for this branch.
+Complete your work in this branch. Do not create a pull request for this branch back to the main repository,
+unless instructed.
 
 ## Requirements
 
@@ -42,7 +43,7 @@ On the left-hand side of the application you should provide a sidebar with three
 - `Acme Publishing` should include the name of the publisher and when clicked should take the user back 
    to the home page.
 - `Book Dashboard` should display the dashboard.
-- `Buy Licenses` should display the License Purchase modal.
+- `Buy Licenses` should display a License Purchase modal.
 
 ### Dashboard
 
@@ -54,7 +55,7 @@ The dashboard consists of a table with the following columns:
  - Created
  - Status
  - User Email
- - Actions drop-down button: this should have two options: `Assign License` and `Return License`.
+ - The Actions drop-down button should have two options: `Assign License` and `Return License`.
 
 These are the features you should implement for the table:
  - The columns of the table should be sortable.
@@ -96,11 +97,11 @@ displayed in the dashboard summary.
 
 Clicking the `Assign License` button in the book actions dropdown should display a confirmation/cancel.
 If confirmed a license should be assigned to the book from the publisher's license pool. 
-The book should updated via the book API.
+The book and should updated via the book API, and the assigned license count updated via the publisher API.
 
 Clicking the `Return License` button in the book actions dropdown should display a confirmation/cancel.
 If confirmed a license should be returned to the publisher's license pool. The book should be updated
-via the book API.
+via the book API, and the assigned license count updated via the publisher API.
 
 ### APIs
 
